@@ -3,18 +3,6 @@ import MinIcon from "/icons/icon-minus.svg";
 import PlusIcon from "/icons/icon-plus.svg";
 import { useGContext } from "../context/globalContext";
 
-// export function uniqueArrayByProperty(array: [], property) {
-//   const uniqueSet = new Set();
-//   return array?.filter((obj) => {
-//     const value = obj[property];
-//     if (!uniqueSet.has(value)) {
-//       uniqueSet.add(value);
-//       return true;
-//     }
-//     return false;
-//   });
-// }
-
 function Main() {
   const {
     setProducts,

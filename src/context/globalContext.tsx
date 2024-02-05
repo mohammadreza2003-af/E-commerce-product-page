@@ -34,8 +34,8 @@ type ValueType = {
 const GlobalContext = createContext<ValueType | null>(null);
 
 const initState = {
-  Opath: "/public/image-product-1.jpg",
-  Tpath: "/public/image-product-1-thumbnail.jpg",
+  Opath: "/image-product-1.jpg",
+  Tpath: "/image-product-1-thumbnail.jpg",
   alt: "Product-1",
 };
 
